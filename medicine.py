@@ -4,7 +4,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 # Load the dataset
-df = pd.read_csv(r'C:\Users\ACER\Downloads\drugsComTest_raw.csv\drugsComTest_raw.csv')
+df = pd.read_csv('drugsComTest_raw.csv')
 
 # Function to recommend drugs based on the condition
 def recommend_drugs_for_condition(condition_input):
